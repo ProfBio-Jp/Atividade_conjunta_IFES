@@ -41,8 +41,51 @@ body {
 
 .coluna-direita {
     flex-grow: 4;
-
     background-color: var(--cor-coluna-direita);
+    display: flex;
+    justify-content: space-around;
+}
+
+.maincolunadireita{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 25px;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.primeiraparte{
+    display: flex;
+    flex-flow: column;
+    justify-self: center;
+    align-items: center;
+    
+    margin-bottom: 100px; 
+}
+
+
+
+
+.footercolunadireita{
+    background-color: #e5e5e5;
+    padding: 10px;
+    text-align: center;
+}
+
+.footercolunadireita a{
+    color: #00571a;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.coluna-direita h1{
+    background-color: #00571a;
+    color: #e5e5e5;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
 }
 
 .coluna-esquerda ul {
